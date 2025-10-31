@@ -42,5 +42,6 @@ public class MaxMemberBill
   System.out.println ( "\nThe max cell bill for "
                        + familyMembers[currentMember] + " is "
                        + priceFormat.format( memberMaxBill ) );
+  scan.close();
  }
 }

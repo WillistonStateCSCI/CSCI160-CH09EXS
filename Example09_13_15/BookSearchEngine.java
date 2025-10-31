@@ -22,5 +22,6 @@ public class BookSearchEngine
                       + " are:" );
   for ( Book tempBook : results )
         System.out.println( tempBook.toString( ) );
+   scan.close();
  }
 }
